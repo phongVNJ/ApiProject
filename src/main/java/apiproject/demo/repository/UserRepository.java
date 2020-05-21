@@ -1,4 +1,7 @@
 package apiproject.demo.repository;
 
-public interface UserRepository {
+import apiproject.demo.entity.User;
+import org.springframework.data.repository.CrudRepository;
+
+public interface UserRepository extends CrudRepository<User, Long> {
 }
