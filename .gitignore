@@ -29,3 +29,11 @@ build/
 
 ### VS Code ###
 .vscode/
+.idea
+.mvn
+.gitignore
+ApiProject.iml
+HELP.md
+ApiProject.iml
+mvnw.cmd
+pom.xml
